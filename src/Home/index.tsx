@@ -6,6 +6,7 @@ import Teams from './Teams';
 import Feature7 from './Feature7';
 import Content13 from './Content13';
 import Content5 from './Content5';
+import Content1 from './Content1';
 
 import './less/antMotionStyle.less';
 
@@ -31,7 +32,7 @@ export default () => {
     <Feature7 />,
     <Content13 />,
     <Content5 />,
-    <Teams />,
+    <Content1 />,
   ];
   return <div className="templates-wrapper">{show && children}</div>;
 };

@@ -13,7 +13,7 @@ export const Banner50DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>IDNS.ETH身份</p>
+            <p>IDNS</p>
           </span>
         ),
         className: 'banner5-title',
@@ -23,7 +23,7 @@ export const Banner50DataSource = {
         className: 'banner5-explain',
         children: (
           <span>
-            <p>方便 安全 可信</p>
+            <p>Identity Naming Service</p>
           </span>
         ),
       },
@@ -32,7 +32,7 @@ export const Banner50DataSource = {
         className: 'banner5-content',
         children: (
           <span>
-            <p>提供一种可溯源、可证明的身份机制，为应用提供用户身份体系</p>
+            <p>提供身份的命名服务,为基于身份的社交网络提供身份的命名解析服务</p>
           </span>
         ),
       },

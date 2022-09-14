@@ -9,6 +9,8 @@ import {
   LaptopOutlined,
 } from '@ant-design/icons';
 
+import WX_IDNS from '@/assets/wx_idns.png';
+
 import styles from './index.less';
 import classNames from 'classnames';
 
@@ -17,8 +19,8 @@ export const DownloadPage = (props: { classNameName?: string }) => {
     <div className={styles.download_card}>
       <div className={styles.phone}>
         <div className={styles.screen}>
-          <div className={styles.dd_download_pic}></div>
-          <p>扫描二维码</p>
+          <img className={styles.dd_download_pic} src={WX_IDNS}></img>
+          <p>努力开发中,支持下!</p>
           <p>下载手机客户端</p>
         </div>
       </div>

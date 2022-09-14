@@ -17,12 +17,20 @@ export default defineConfig({
       component: '@/pages/index',
       routes: [
         {
+          path: './',
+          redirect: './home',
+        },
+        {
           path: './home',
           component: '@/Home/index',
         },
         {
           path: './download',
           component: '@/pages/download/index',
+        },
+        {
+          path: './about',
+          component: '@/pages/about/index',
         },
       ],
     },

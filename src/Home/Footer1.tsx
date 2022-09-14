@@ -6,6 +6,8 @@ import { Row, Col } from 'antd';
 import { getChildrenToRender } from './utils';
 import { isImg } from './utils';
 
+import LOGO_PNG from '@/assets/idns_logo_square.png';
+
 export const Footer10DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
@@ -20,7 +22,7 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          children: 'https://docs.ipfs.tech/images/ipfs-logo.svg',
+          children: <img src={LOGO_PNG}></img>,
         },
         childWrapper: {
           className: 'slogan',
@@ -28,7 +30,7 @@ export const Footer10DataSource = {
             {
               name: 'content0',
               children:
-                'IPFS是一个去中心化的文件系统,IDNS的一些应用是建立在IPFS基础之上的.',
+                'IDNS(Identity Naming Service),提供身份的命名服务,为基于身份的社交网络提供身份的命名解析服务.',
             },
           ],
         },
@@ -93,8 +95,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2022 by <a href="https://ipfs.idns.eth">IPFS.IDNS</a> All Rights
-        Reserved
+        ©2022 by <a href="https://www.idns.link">IDNS</a> All Rights Reserved
       </span>
     ),
   },
