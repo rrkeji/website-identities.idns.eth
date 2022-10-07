@@ -32,7 +32,7 @@ export default () => {
     <Feature7 />,
     <Content13 />,
     <Content5 />,
-    <Content1 />,
+    // <Content1 />,
   ];
   return <div className="templates-wrapper">{show && children}</div>;
 };

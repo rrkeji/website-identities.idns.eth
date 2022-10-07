@@ -95,7 +95,10 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2022 by <a href="https://www.idns.link">IDNS</a> All Rights Reserved
+        ©2022 by <a href="https://www.idns.link">IDNS</a> All Rights Reserved{' '}
+        <a href="https://beian.miit.gov.cn/" target="_blank">
+          京ICP备20002678号-3
+        </a>
       </span>
     ),
   },
